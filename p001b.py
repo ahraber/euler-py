@@ -1,0 +1,5 @@
+f = []
+for i in range(3, 1000):
+    if (( i%3 == 0 ) or ( i%5 ==0)) and ( i < 1000 ) and ( i not in f ):
+        f.append(i)
+print(sum(f))
